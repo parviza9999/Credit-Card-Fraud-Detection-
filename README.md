@@ -53,4 +53,8 @@ pip install -r requirements.txt
 ```
 
 ### 2. Prepare data
+```powershell
+python src/data_loader.py --download --output data/raw
+```
+### 3. Train models
 TODO
