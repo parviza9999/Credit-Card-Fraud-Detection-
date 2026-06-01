@@ -239,3 +239,7 @@ model_artifacts/
 # Environment
 .env
 .venv/
+\# Raw and processed datasets
+data/raw/
+data/processed/
+*csvn*.zip
