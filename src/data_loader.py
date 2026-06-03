@@ -42,7 +42,7 @@ def main() -> None:
     parser.add_argument("--output", type=str, default="data/raw", help="Target directory for raw dataset files.")
     args = parser.parse_args()
 
-    output_dir = Path(args.output)
+    output_dir = Path(args.output).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.download:
