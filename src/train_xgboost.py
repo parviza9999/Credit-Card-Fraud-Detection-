@@ -29,7 +29,7 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 from xgboost import XGBClassifier
-
+from evaluation import evaluate_model_performance, save_metrics_to_report
 
 RANDOM_STATE = 42
 
@@ -204,7 +204,18 @@ def save_outputs(
     ).sort_values("importance", ascending=False)
 
     feature_importance.to_csv(report_dir / "xgboost_feature_importance.csv", index=False)
-
+    save_metrics_to_report(
+        metrics_dict={
+            "accuracy": results["accuracy"],
+            "precision": results["precision"],
+            "recall": results["recall"],
+            "f1_score": results["f1_score"],
+            "roc_auc": results["roc_auc"],
+            "pr_auc": results["pr_auc"],
+        },
+        file_path=report_dir / "metrics_summary.csv",
+        model_name="XGBoost",
+    )
     print(f"Model saved to: {output_dir / 'xgboost_fraud_model.joblib'}")
     print(f"Results saved to: {report_dir}")
 
