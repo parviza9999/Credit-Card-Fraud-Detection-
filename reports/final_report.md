@@ -1,5 +1,8 @@
 # Credit Card Fraud Detection Capstone Final Report
+## Project Team
 
+- Parviz Ali
+- Maryam Shabani
 ## 1. Executive Summary
 
 This capstone project developed and compared machine learning models for credit card fraud detection using the Kaggle/ULB credit card fraud dataset. The dataset is highly imbalanced, with fraudulent transactions representing approximately 0.17% of all records.

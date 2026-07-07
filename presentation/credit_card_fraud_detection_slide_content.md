@@ -4,7 +4,7 @@
 
 **Credit Card Fraud Detection Using Machine Learning**
 
-Parviz Ali  
+Parviz Ali and Maryam Shabani 
 Capstone Project
 
 ---

@@ -1,5 +1,8 @@
 # Credit Card Fraud Detection Capstone
+## Project Team
 
+- Parviz Ali
+- Maryam Shabani
 ## Project Overview
 
 This capstone project applies machine learning to credit card fraud detection using the Kaggle/ULB Credit Card Fraud dataset. The dataset contains anonymized European cardholder transactions and is highly imbalanced: only about 0.17% of transactions are fraudulent. The primary objective is to build a robust fraud detection pipeline with repeatable engineering, strong validation, and a clear comparison between simple and advanced models.

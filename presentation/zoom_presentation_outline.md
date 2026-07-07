@@ -1,10 +1,13 @@
 # Credit Card Fraud Detection Capstone — Zoom Presentation Outline
+## Project Team
 
+- Parviz Ali
+- Maryam Shabani
 ## Slide 1 — Title
 
 **Credit Card Fraud Detection Using Machine Learning**
 
-Presenter: Parviz Ali, Maryam Shabani 
+Presenter: Parviz Ali and Maryam Shabani 
 Capstone Project
 
 ### Speaker Notes
